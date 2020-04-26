@@ -1,0 +1,12 @@
+
+{
+  "accountDS": {
+    "name": "document",
+    "connector": "mongodb",
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "collabif",
+    "username": "collabif",
+    "password": "c011@b1f"
+  }
+}
