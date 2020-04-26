@@ -3,12 +3,13 @@ import {Entity, model, property} from '@loopback/repository';
 @model()
 export class Document extends Entity {
   @property({
-    type: 'number',
+    type: String,
     id: true,
+    mongodb: {dataType: 'ObjectID'},
     generated: true,
     description: 'Unique identifier of a document',
   })
-  id?: number;
+  id?: String;
 
   @property({
     type: 'string',
